@@ -32,6 +32,7 @@ xmlns:android="http://schemas.android.com/apk/res/android"
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
         <!-- <pod id="Firebase/Core"/> -->
+        <header-file src="src/ios/Firebase/Firebase.h" />
         <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseCore.framework" />
         <framework custom="true" src="src/ios/Firebase/Analytics/FirebaseAnalytics.framework" />
        <!-- <framework src="FirebaseCore" type="podspec" spec="~> 5.6"/> -->
